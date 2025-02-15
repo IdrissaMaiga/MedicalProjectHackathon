@@ -1,0 +1,49 @@
+# 🚀 Ignore environment files (store secrets securely)
+.env
+*.env
+.env.local
+.env.*.local
+
+# 🚀 Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🚀 Ignore logs and database files
+*.log
+*.sqlite3
+*.db
+
+# 🚀 Ignore virtual environments
+venv/
+env/
+.venv/
+pip-wheel-metadata/
+
+# 🚀 Ignore dependency tracking files
+pip-log.txt
+pip-delete-this-directory.txt
+
+# 🚀 Ignore IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# 🚀 Ignore Docker and deployment files (if applicable)
+docker-compose.override.yml
+.dockerignore
+
+# 🚀 Ignore Jupyter notebooks checkpoint files
+.ipynb_checkpoints/
+
+# 🚀 Ignore FastAPI auto-generated documentation (if stored)
+docs/_build/
+
+# 🚀 Ignore test coverage reports
+htmlcov/
+coverage.xml
+*.cover
