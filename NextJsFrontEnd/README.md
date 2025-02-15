@@ -20,75 +20,65 @@ This project leverages AI to automate the management of your Gmail account, perf
 
 To get started with this project locally, follow the steps below:
 
-### 1. Clone the Repository
 
-```bash
-git clone https://github.com/your-username/ai-gmail-management-agent.git
-2. Install Dependencies
+### 2. Install Dependencies
 Navigate into the project directory and install the necessary dependencies:
 
-bash
-Copy
-Edit
-cd ai-gmail-management-agent
+```bash
 npm install
-3. Set Up Google OAuth
-Go to the Google Developer Console. Create a new project. Enable the Gmail API for your project. Set up OAuth 2.0 credentials (you'll need the client_id and client_secret).
+```
 
-Add your credentials to the .env file:
+### 3. Set Up Google OAuth
+1. Go to the [Google Developer Console](https://console.cloud.google.com/).
+2. Create a new project.
+3. Enable the Gmail API for your project.
+4. Set up OAuth 2.0 credentials (you'll need the `client_id` and `client_secret`).
+5. Add your credentials to the `.env` file:
 
-bash
-Copy
-Edit
+```bash
 GOOGLE_CLIENT_ID=your-google-client-id
 GOOGLE_CLIENT_SECRET=your-google-client-secret
-4. Run the Project Locally
+```
+
+### 4. Run the Project Locally
 Once everything is set up, you can run the application locally:
 
-bash
-Copy
-Edit
+```bash
 npm run dev
-This will start the development server, and you can access the app at http://localhost:3000.
+```
 
-🧠 AI Features
+This will start the development server, and you can access the app at `http://localhost:3000`.
+
+## 🧠 AI Features
 The core AI functionalities are powered by the DeepSeek R1 API with its 70-billion distill model, which allows the agent to:
 
-Understand email content intelligently.
-Perform actions based on email analysis (such as organizing emails or flagging important ones).
-Learn from your interactions to improve future email management.
-⚙️ Usage
+- Understand email content intelligently.
+- Perform actions based on email analysis (such as organizing emails or flagging important ones).
+- Learn from your interactions to improve future email management.
+
+## ⚙️ Usage
 Once the application is running, follow these steps:
 
-Sign in with your Google account using OAuth.
-Grant permissions to access your Gmail account.
-Start managing your emails! The AI agent will assist in reading, sending, and organizing your inbox automatically.
-🔒 Security
+1. Sign in with your Google account using OAuth.
+2. Grant permissions to access your Gmail account.
+3. Start managing your emails! The AI agent will assist in reading, sending, and organizing your inbox automatically.
+
+## 🔒 Security
 This project uses Google OAuth for authentication, ensuring that your email data is securely handled. No email data is stored locally, and all interactions are done through secure API calls.
 
-📄 License
+## 📄 License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-💬 Contributing
+## 💬 Contributing
 Contributions are welcome! Feel free to fork this repository, submit issues, and send pull requests.
 
-🤖 Future Enhancements
+## 🤖 Future Enhancements
 The future of this project will focus on:
 
-Enhancing the AI’s ability to understand and categorize emails more effectively.
-Integrating additional APIs for email-related actions like smart replies and auto-sorting.
-Continuous improvements to speed and accuracy using cutting-edge AI technologies.
-📧 Contact
-For questions or suggestions, feel free to reach out to me at maigadrisking@gmail.com.
+- Enhancing the AI’s ability to understand and categorize emails more effectively.
+- Integrating additional APIs for email-related actions like smart replies and auto-sorting.
+- Continuous improvements to speed and accuracy using cutting-edge AI technologies.
 
-markdown
-Copy
-Edit
+## 📧 Contact
+For questions or suggestions, feel free to reach out to me at [maigadrisking@gmail.com](mailto:maigadrisking@gmail.com).
 
-### Key Adjustments:
-- **Markdown Formatting**: Optimized for GitHub-style markdown rendering.
-- **Code Blocks**: Command examples like `git clone`, `npm install`, and `.env` setup are enclosed in code blocks for better readability.
-- **Links**: Added clickable links for Google Developer Console and email contact.
-- **Headings and Sections**: Organized the content with clear headers for easy navigation.
-
-This README is now well-structured and easy for anyone visiting your GitHub repository to follow the insta
