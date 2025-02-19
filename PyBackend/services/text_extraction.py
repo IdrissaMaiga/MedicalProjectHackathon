@@ -1,4 +1,4 @@
-import fitz  # PyMuPDF for PDFs
+import pymupdf
 import pytesseract
 from PIL import Image
 from io import BytesIO
@@ -12,7 +12,7 @@ pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tessera
 
 # Extract text from PDFs
 def extract_text_from_pdf_bytes(pdf_bytes: bytes) -> str:
-    doc = fitz.open(stream=pdf_bytes, filetype="pdf")
+    doc = pymupdf.open(stream=pdf_bytes, filetype="pdf")
     return "\n".join(page.get_text() for page in doc)
 
 # Extract text from images using Tesseract OCR

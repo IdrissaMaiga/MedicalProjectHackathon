@@ -11,7 +11,6 @@ configparser==7.1.0
 etelemetry==0.3.1
 fastapi==0.115.8
 filelock==3.17.0
-fitz==0.0.1.dev2
 h11==0.14.0
 httplib2==0.22.0
 idna==3.10
