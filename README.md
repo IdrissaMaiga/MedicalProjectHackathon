@@ -33,6 +33,9 @@ Once the virtual environment is activated, install the required dependencies:
 pip install -r requirements.txt
 ```
 
+### Environment variables
+Create your .env from .env.example.
+
 ### 4️⃣ Install Tesseract OCR
 Tesseract OCR is required for text extraction from images.
 
